@@ -192,6 +192,7 @@ namespace Capstone_Console
 
         static void DisplayGameBoard (string[,] gameboard)
         {
+            // its the gameboard
             Console.WriteLine();
             Console.WriteLine("      |     |     ");
             Console.WriteLine("   " + gameboard[0, 0] + "  |  " + gameboard[1, 0] + "  |  " + gameboard[2, 0] + "  ");
